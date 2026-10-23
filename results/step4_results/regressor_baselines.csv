@@ -1,0 +1,4 @@
+model,MAE_nonmetals_eV,ci_low,ci_high
+Random forest,0.458,0.434,0.483
+Gradient boosting,0.441,0.418,0.466
+Ridge,43.45,0.57,134.412

@@ -1,0 +1,7 @@
+seed,subset,base_rate,brier,brier_constant_base_rate,brier_skill_score,AUC_in_window,mean_predicted_probability
+42,all compounds,0.1101,0.0686,0.098,0.3002,0.8963,0.1138
+42,chalcogenides + pnictides,0.2319,0.1362,0.1781,0.2355,0.8183,0.2374
+43,all compounds,0.1101,0.0683,0.098,0.3034,0.9001,0.1154
+43,chalcogenides + pnictides,0.2319,0.1359,0.1781,0.2369,0.8192,0.2408
+44,all compounds,0.1101,0.069,0.098,0.2962,0.8967,0.1119
+44,chalcogenides + pnictides,0.2319,0.1373,0.1781,0.2292,0.8153,0.2328

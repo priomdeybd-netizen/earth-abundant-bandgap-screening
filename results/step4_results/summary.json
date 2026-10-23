@@ -1,0 +1,321 @@
+{
+  "window": [
+    1.0,
+    1.8
+  ],
+  "base_rate_all": 0.11012163336229366,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "stability": [
+    {
+      "seed": 42,
+      "MAE_single": 0.4741,
+      "MAE_two_stage": 0.3838,
+      "MAE_nonmetal_single": 0.5987,
+      "MAE_nonmetal_two_stage": 0.5838,
+      "MAE_nonmetal_regressor": 0.4579,
+      "accuracy": 0.9068
+    },
+    {
+      "seed": 43,
+      "MAE_single": 0.4726,
+      "MAE_two_stage": 0.3768,
+      "MAE_nonmetal_single": 0.5944,
+      "MAE_nonmetal_two_stage": 0.5745,
+      "MAE_nonmetal_regressor": 0.4612,
+      "accuracy": 0.9118
+    },
+    {
+      "seed": 44,
+      "MAE_single": 0.4823,
+      "MAE_two_stage": 0.3901,
+      "MAE_nonmetal_single": 0.6005,
+      "MAE_nonmetal_two_stage": 0.5999,
+      "MAE_nonmetal_regressor": 0.4664,
+      "accuracy": 0.906
+    }
+  ],
+  "stability_summary": [
+    {
+      "index": "mean",
+      "MAE_single": 0.4763,
+      "MAE_two_stage": 0.3836,
+      "MAE_nonmetal_single": 0.5979,
+      "MAE_nonmetal_two_stage": 0.5861,
+      "MAE_nonmetal_regressor": 0.4618,
+      "accuracy": 0.9082
+    },
+    {
+      "index": "std",
+      "MAE_single": 0.0052,
+      "MAE_two_stage": 0.0067,
+      "MAE_nonmetal_single": 0.0031,
+      "MAE_nonmetal_two_stage": 0.0129,
+      "MAE_nonmetal_regressor": 0.0043,
+      "accuracy": 0.0031
+    },
+    {
+      "index": "min",
+      "MAE_single": 0.4726,
+      "MAE_two_stage": 0.3768,
+      "MAE_nonmetal_single": 0.5944,
+      "MAE_nonmetal_two_stage": 0.5745,
+      "MAE_nonmetal_regressor": 0.4579,
+      "accuracy": 0.906
+    },
+    {
+      "index": "max",
+      "MAE_single": 0.4823,
+      "MAE_two_stage": 0.3901,
+      "MAE_nonmetal_single": 0.6005,
+      "MAE_nonmetal_two_stage": 0.5999,
+      "MAE_nonmetal_regressor": 0.4664,
+      "accuracy": 0.9118
+    }
+  ],
+  "calibration": [
+    {
+      "seed": 42,
+      "subset": "all compounds",
+      "base_rate": 0.1101,
+      "brier": 0.0686,
+      "brier_constant_base_rate": 0.098,
+      "brier_skill_score": 0.3002,
+      "AUC_in_window": 0.8963,
+      "mean_predicted_probability": 0.1138
+    },
+    {
+      "seed": 42,
+      "subset": "chalcogenides + pnictides",
+      "base_rate": 0.2319,
+      "brier": 0.1362,
+      "brier_constant_base_rate": 0.1781,
+      "brier_skill_score": 0.2355,
+      "AUC_in_window": 0.8183,
+      "mean_predicted_probability": 0.2374
+    },
+    {
+      "seed": 43,
+      "subset": "all compounds",
+      "base_rate": 0.1101,
+      "brier": 0.0683,
+      "brier_constant_base_rate": 0.098,
+      "brier_skill_score": 0.3034,
+      "AUC_in_window": 0.9001,
+      "mean_predicted_probability": 0.1154
+    },
+    {
+      "seed": 43,
+      "subset": "chalcogenides + pnictides",
+      "base_rate": 0.2319,
+      "brier": 0.1359,
+      "brier_constant_base_rate": 0.1781,
+      "brier_skill_score": 0.2369,
+      "AUC_in_window": 0.8192,
+      "mean_predicted_probability": 0.2408
+    },
+    {
+      "seed": 44,
+      "subset": "all compounds",
+      "base_rate": 0.1101,
+      "brier": 0.069,
+      "brier_constant_base_rate": 0.098,
+      "brier_skill_score": 0.2962,
+      "AUC_in_window": 0.8967,
+      "mean_predicted_probability": 0.1119
+    },
+    {
+      "seed": 44,
+      "subset": "chalcogenides + pnictides",
+      "base_rate": 0.2319,
+      "brier": 0.1373,
+      "brier_constant_base_rate": 0.1781,
+      "brier_skill_score": 0.2292,
+      "AUC_in_window": 0.8153,
+      "mean_predicted_probability": 0.2328
+    }
+  ],
+  "enrichment_ci_seed42": [
+    {
+      "subset": "all compounds",
+      "top_fraction": 0.05,
+      "enrichment_ci95_low": 5.42,
+      "enrichment_ci95_high": 6.74
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "top_fraction": 0.05,
+      "enrichment_ci95_low": 2.81,
+      "enrichment_ci95_high": 3.75
+    }
+  ],
+  "enrichment_summary": [
+    {
+      "subset": "all compounds",
+      "ranking": "naive: single-stage closest to 1.4 eV",
+      "top_fraction": 0.02,
+      "base_rate": 0.11,
+      "precision": 0.416,
+      "enrichment": 3.777
+    },
+    {
+      "subset": "all compounds",
+      "ranking": "naive: single-stage closest to 1.4 eV",
+      "top_fraction": 0.05,
+      "base_rate": 0.11,
+      "precision": 0.437,
+      "enrichment": 3.973
+    },
+    {
+      "subset": "all compounds",
+      "ranking": "naive: single-stage closest to 1.4 eV",
+      "top_fraction": 0.1,
+      "base_rate": 0.11,
+      "precision": 0.392,
+      "enrichment": 3.56
+    },
+    {
+      "subset": "all compounds",
+      "ranking": "naive: two-stage closest to 1.4 eV",
+      "top_fraction": 0.02,
+      "base_rate": 0.11,
+      "precision": 0.591,
+      "enrichment": 5.37
+    },
+    {
+      "subset": "all compounds",
+      "ranking": "naive: two-stage closest to 1.4 eV",
+      "top_fraction": 0.05,
+      "base_rate": 0.11,
+      "precision": 0.61,
+      "enrichment": 5.543
+    },
+    {
+      "subset": "all compounds",
+      "ranking": "naive: two-stage closest to 1.4 eV",
+      "top_fraction": 0.1,
+      "base_rate": 0.11,
+      "precision": 0.546,
+      "enrichment": 4.957
+    },
+    {
+      "subset": "all compounds",
+      "ranking": "window probability (ours)",
+      "top_fraction": 0.02,
+      "base_rate": 0.11,
+      "precision": 0.731,
+      "enrichment": 6.64
+    },
+    {
+      "subset": "all compounds",
+      "ranking": "window probability (ours)",
+      "top_fraction": 0.05,
+      "base_rate": 0.11,
+      "precision": 0.652,
+      "enrichment": 5.923
+    },
+    {
+      "subset": "all compounds",
+      "ranking": "window probability (ours)",
+      "top_fraction": 0.1,
+      "base_rate": 0.11,
+      "precision": 0.567,
+      "enrichment": 5.153
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "naive: single-stage closest to 1.4 eV",
+      "top_fraction": 0.02,
+      "base_rate": 0.232,
+      "precision": 0.59,
+      "enrichment": 2.54
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "naive: single-stage closest to 1.4 eV",
+      "top_fraction": 0.05,
+      "base_rate": 0.232,
+      "precision": 0.601,
+      "enrichment": 2.59
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "naive: single-stage closest to 1.4 eV",
+      "top_fraction": 0.1,
+      "base_rate": 0.232,
+      "precision": 0.593,
+      "enrichment": 2.557
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "naive: two-stage closest to 1.4 eV",
+      "top_fraction": 0.02,
+      "base_rate": 0.232,
+      "precision": 0.675,
+      "enrichment": 2.91
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "naive: two-stage closest to 1.4 eV",
+      "top_fraction": 0.05,
+      "base_rate": 0.232,
+      "precision": 0.625,
+      "enrichment": 2.693
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "naive: two-stage closest to 1.4 eV",
+      "top_fraction": 0.1,
+      "base_rate": 0.232,
+      "precision": 0.632,
+      "enrichment": 2.723
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "window probability (ours)",
+      "top_fraction": 0.02,
+      "base_rate": 0.232,
+      "precision": 0.709,
+      "enrichment": 3.06
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "window probability (ours)",
+      "top_fraction": 0.05,
+      "base_rate": 0.232,
+      "precision": 0.732,
+      "enrichment": 3.157
+    },
+    {
+      "subset": "chalcogenides + pnictides",
+      "ranking": "window probability (ours)",
+      "top_fraction": 0.1,
+      "base_rate": 0.232,
+      "precision": 0.677,
+      "enrichment": 2.92
+    }
+  ],
+  "baselines": [
+    {
+      "model": "Random forest",
+      "MAE_nonmetals_eV": 0.458,
+      "ci_low": 0.434,
+      "ci_high": 0.483
+    },
+    {
+      "model": "Gradient boosting",
+      "MAE_nonmetals_eV": 0.441,
+      "ci_low": 0.418,
+      "ci_high": 0.466
+    },
+    {
+      "model": "Ridge",
+      "MAE_nonmetals_eV": 43.45,
+      "ci_low": 0.57,
+      "ci_high": 134.412
+    }
+  ]
+}

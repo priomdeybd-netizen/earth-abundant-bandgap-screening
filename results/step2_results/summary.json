@@ -1,0 +1,152 @@
+{
+  "n_dataset": 4604,
+  "nonmetal_share": 0.4678540399652476,
+  "n_systems": 3705,
+  "protocol_comparison": [
+    {
+      "protocol": "random",
+      "n_tested": 4604,
+      "MAE_single_all": 0.463,
+      "MAE_two_stage_all": 0.371,
+      "MAE_single_nonmetals": 0.572,
+      "MAE_two_stage_nonmetals": 0.554,
+      "MAE_regressor_if_nonmetal_known": 0.436,
+      "metal_vs_nonmetal_accuracy": 0.911,
+      "metal_vs_nonmetal_AUC": 0.969,
+      "error90_nonmetals_eV": 1.033
+    },
+    {
+      "protocol": "system",
+      "n_tested": 4604,
+      "MAE_single_all": 0.474,
+      "MAE_two_stage_all": 0.384,
+      "MAE_single_nonmetals": 0.599,
+      "MAE_two_stage_nonmetals": 0.584,
+      "MAE_regressor_if_nonmetal_known": 0.458,
+      "metal_vs_nonmetal_accuracy": 0.907,
+      "metal_vs_nonmetal_AUC": 0.967,
+      "error90_nonmetals_eV": 1.028
+    },
+    {
+      "protocol": "family",
+      "n_tested": 3177,
+      "MAE_single_all": 1.066,
+      "MAE_two_stage_all": 1.036,
+      "MAE_single_nonmetals": 1.058,
+      "MAE_two_stage_nonmetals": 1.487,
+      "MAE_regressor_if_nonmetal_known": 0.87,
+      "metal_vs_nonmetal_accuracy": 0.687,
+      "metal_vs_nonmetal_AUC": 0.81,
+      "error90_nonmetals_eV": 1.765
+    }
+  ],
+  "family_holdout": [
+    {
+      "held_out_family": "chalcogenide",
+      "n": 1485,
+      "n_nonmetal": 1291,
+      "MAE_regressor_nonmetals": 0.631,
+      "metal_vs_nonmetal_accuracy": 0.712
+    },
+    {
+      "held_out_family": "halide",
+      "n": 177,
+      "n_nonmetal": 77,
+      "MAE_regressor_nonmetals": 1.739,
+      "metal_vs_nonmetal_accuracy": 0.74
+    },
+    {
+      "held_out_family": "oxide",
+      "n": 1090,
+      "n_nonmetal": 491,
+      "MAE_regressor_nonmetals": 1.47,
+      "metal_vs_nonmetal_accuracy": 0.613
+    },
+    {
+      "held_out_family": "pnictide",
+      "n": 425,
+      "n_nonmetal": 199,
+      "MAE_regressor_nonmetals": 0.604,
+      "metal_vs_nonmetal_accuracy": 0.772
+    }
+  ],
+  "error90_nonmetals_system_protocol": 1.0275750000000006,
+  "candidate_source": "Materials Project (matbench_mp_e_form)",
+  "n_candidates": 8326,
+  "n_p_in_window_ge_0p30": 98,
+  "max_p_in_window": 0.5869220055710306,
+  "blind_recovery": [
+    {
+      "compound": "Cu2ZnSnS4",
+      "literature_gap_eV_approx": 1.5,
+      "single_stage": 1.67,
+      "p_nonmetal": 0.98,
+      "two_stage_regressor": 1.83,
+      "err_single": 0.17,
+      "err_two_stage": 0.33,
+      "rows_removed": 0
+    },
+    {
+      "compound": "Zn3P2",
+      "literature_gap_eV_approx": 1.5,
+      "single_stage": 0.37,
+      "p_nonmetal": 0.72,
+      "two_stage_regressor": 1.82,
+      "err_single": 1.13,
+      "err_two_stage": 0.32,
+      "rows_removed": 1
+    },
+    {
+      "compound": "FeS2",
+      "literature_gap_eV_approx": 0.95,
+      "single_stage": 0.39,
+      "p_nonmetal": 0.57,
+      "two_stage_regressor": 1.19,
+      "err_single": 0.56,
+      "err_two_stage": 0.24,
+      "rows_removed": 1
+    },
+    {
+      "compound": "SnS",
+      "literature_gap_eV_approx": 1.3,
+      "single_stage": 1.43,
+      "p_nonmetal": 0.99,
+      "two_stage_regressor": 1.33,
+      "err_single": 0.13,
+      "err_two_stage": 0.03,
+      "rows_removed": 2
+    },
+    {
+      "compound": "Cu2O",
+      "literature_gap_eV_approx": 2.1,
+      "single_stage": 0.45,
+      "p_nonmetal": 0.25,
+      "two_stage_regressor": 2.06,
+      "err_single": 1.65,
+      "err_two_stage": 0.04,
+      "rows_removed": 3
+    },
+    {
+      "compound": "BaZrS3",
+      "literature_gap_eV_approx": 1.8,
+      "single_stage": 2.06,
+      "p_nonmetal": 0.89,
+      "two_stage_regressor": 2.26,
+      "err_single": 0.26,
+      "err_two_stage": 0.46,
+      "rows_removed": 0
+    },
+    {
+      "compound": "Fe2O3",
+      "literature_gap_eV_approx": 2.1,
+      "single_stage": 0.5,
+      "p_nonmetal": 0.22,
+      "two_stage_regressor": 2.56,
+      "err_single": 1.6,
+      "err_two_stage": 0.46,
+      "rows_removed": 1
+    }
+  ],
+  "mean_blind_err_single": 0.7857142857142857,
+  "mean_blind_err_two_stage": 0.26857142857142857
+}

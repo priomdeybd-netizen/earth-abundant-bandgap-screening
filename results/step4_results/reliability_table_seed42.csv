@@ -1,0 +1,17 @@
+subset,bin,n,mean_predicted,observed_fraction
+all compounds,0,576,0.0,0.002
+all compounds,1,575,0.002,0.003
+all compounds,2,576,0.006,0.01
+all compounds,3,574,0.018,0.033
+all compounds,4,576,0.049,0.019
+all compounds,5,576,0.117,0.08
+all compounds,6,575,0.245,0.216
+all compounds,7,576,0.472,0.517
+chalcogenides + pnictides,0,239,0.023,0.029
+chalcogenides + pnictides,1,239,0.066,0.033
+chalcogenides + pnictides,2,238,0.11,0.092
+chalcogenides + pnictides,3,239,0.163,0.151
+chalcogenides + pnictides,4,239,0.231,0.155
+chalcogenides + pnictides,5,238,0.327,0.294
+chalcogenides + pnictides,6,239,0.438,0.431
+chalcogenides + pnictides,7,239,0.541,0.669

@@ -1,0 +1,21 @@
+,,,base_rate,base_rate,precision,precision,enrichment,enrichment
+,,,mean,std,mean,std,mean,std
+subset,ranking,top_fraction,,,,,,
+all compounds,naive: single-stage closest to 1.4 eV,0.02,0.11,0.0,0.416,0.016,3.777,0.153
+all compounds,naive: single-stage closest to 1.4 eV,0.05,0.11,0.0,0.437,0.028,3.973,0.257
+all compounds,naive: single-stage closest to 1.4 eV,0.1,0.11,0.0,0.392,0.017,3.56,0.145
+all compounds,naive: two-stage closest to 1.4 eV,0.02,0.11,0.0,0.591,0.122,5.37,1.109
+all compounds,naive: two-stage closest to 1.4 eV,0.05,0.11,0.0,0.61,0.034,5.543,0.314
+all compounds,naive: two-stage closest to 1.4 eV,0.1,0.11,0.0,0.546,0.009,4.957,0.076
+all compounds,window probability (ours),0.02,0.11,0.0,0.731,0.019,6.64,0.173
+all compounds,window probability (ours),0.05,0.11,0.0,0.652,0.02,5.923,0.179
+all compounds,window probability (ours),0.1,0.11,0.0,0.567,0.01,5.153,0.09
+chalcogenides + pnictides,naive: single-stage closest to 1.4 eV,0.02,0.232,0.0,0.59,0.026,2.54,0.11
+chalcogenides + pnictides,naive: single-stage closest to 1.4 eV,0.05,0.232,0.0,0.601,0.034,2.59,0.14
+chalcogenides + pnictides,naive: single-stage closest to 1.4 eV,0.1,0.232,0.0,0.593,0.052,2.557,0.224
+chalcogenides + pnictides,naive: two-stage closest to 1.4 eV,0.02,0.232,0.0,0.675,0.065,2.91,0.282
+chalcogenides + pnictides,naive: two-stage closest to 1.4 eV,0.05,0.232,0.0,0.625,0.095,2.693,0.408
+chalcogenides + pnictides,naive: two-stage closest to 1.4 eV,0.1,0.232,0.0,0.632,0.043,2.723,0.18
+chalcogenides + pnictides,window probability (ours),0.02,0.232,0.0,0.709,0.083,3.06,0.359
+chalcogenides + pnictides,window probability (ours),0.05,0.232,0.0,0.732,0.026,3.157,0.116
+chalcogenides + pnictides,window probability (ours),0.1,0.232,0.0,0.677,0.032,2.92,0.137

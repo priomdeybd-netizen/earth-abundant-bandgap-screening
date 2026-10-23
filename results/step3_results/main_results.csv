@@ -1,0 +1,8 @@
+metric,value,ci_low,ci_high
+MAE all compounds - single-stage (eV),0.474,0.452,0.496
+MAE all compounds - two-stage hard rule (eV),0.384,0.359,0.41
+MAE difference single minus two-stage (eV),0.09,0.073,0.108
+MAE true non-metals - single-stage (eV),0.599,0.561,0.637
+MAE true non-metals - two-stage hard rule (eV),0.584,0.544,0.628
+MAE true non-metals - regressor if non-metal known (eV),0.458,0.434,0.483
+Metal vs non-metal accuracy,0.907,0.898,0.915

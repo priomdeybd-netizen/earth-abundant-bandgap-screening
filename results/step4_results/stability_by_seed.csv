@@ -1,0 +1,4 @@
+seed,MAE_single,MAE_two_stage,MAE_nonmetal_single,MAE_nonmetal_two_stage,MAE_nonmetal_regressor,accuracy
+42,0.4741,0.3838,0.5987,0.5838,0.4579,0.9068
+43,0.4726,0.3768,0.5944,0.5745,0.4612,0.9118
+44,0.4823,0.3901,0.6005,0.5999,0.4664,0.906

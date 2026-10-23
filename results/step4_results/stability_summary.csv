@@ -1,0 +1,5 @@
+,MAE_single,MAE_two_stage,MAE_nonmetal_single,MAE_nonmetal_two_stage,MAE_nonmetal_regressor,accuracy
+mean,0.4763,0.3836,0.5979,0.5861,0.4618,0.9082
+std,0.0052,0.0067,0.0031,0.0129,0.0043,0.0031
+min,0.4726,0.3768,0.5944,0.5745,0.4579,0.906
+max,0.4823,0.3901,0.6005,0.5999,0.4664,0.9118

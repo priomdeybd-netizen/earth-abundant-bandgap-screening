@@ -1,0 +1,8 @@
+compound,literature_gap_approx,p_nonmetal,regressor_if_nonmetal,TWO_STAGE_HARD,single_stage,err_two_stage_hard,err_single,rows_removed
+Cu2ZnSnS4,1.5,0.98,1.83,1.83,1.67,0.33,0.17,0
+Zn3P2,1.5,0.72,1.82,1.82,0.37,0.32,1.13,1
+FeS2,0.95,0.57,1.19,1.19,0.39,0.24,0.56,1
+SnS,1.3,0.99,1.33,1.33,1.43,0.03,0.13,2
+Cu2O,2.1,0.25,2.06,0.0,0.45,2.1,1.65,3
+BaZrS3,1.8,0.89,2.26,2.26,2.06,0.46,0.26,0
+Fe2O3,2.1,0.22,2.56,0.0,0.5,2.1,1.6,1
